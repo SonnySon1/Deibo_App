@@ -11,7 +11,7 @@ class AppConfig {
 
 
   // Colors for APP
-  static const Color bgColor = Color(0xff0C0B19);
+  static const Color bgColor = Color(0xff0C0A21);
   static const Color primaryColor = Color(0xff493DF5);
   static const Color secondaryColor = Color(0xff1E1B2E);
   static const Color lightPrimaryColor = Color(0xff493DF5);

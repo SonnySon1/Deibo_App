@@ -1,5 +1,6 @@
 import "package:deibo_app/Config/app_config.dart";
 import "package:deibo_app/Pages/auth/signin_page.dart";
+import "package:deibo_app/Pages/auth/welcome_page.dart";
 import "package:flutter/material.dart";
 import "package:flutter/services.dart";
 
@@ -19,7 +20,7 @@ void main() {
       theme: ThemeData(
         scaffoldBackgroundColor: AppConfig.bgColor
       ),
-      home: SigninPage(),
+      home: WelcomePage(),
       routes: {
         '/signin' : (context) => SigninPage(), 
       },
