@@ -1,4 +1,5 @@
 import "package:deibo_app/Config/app_config.dart";
+import "package:deibo_app/Pages/auth/otpcode_page.dart";
 import "package:deibo_app/Pages/auth/signin_page.dart";
 import "package:deibo_app/Pages/auth/welcome_page.dart";
 import "package:flutter/material.dart";
@@ -23,6 +24,7 @@ void main() {
       home: WelcomePage(),
       routes: {
         '/signin' : (context) => SigninPage(), 
+        '/otpcode' : (context) => OtpcodePage()
       },
     )
   );

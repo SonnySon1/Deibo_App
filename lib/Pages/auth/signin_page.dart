@@ -17,7 +17,7 @@ class SigninPage extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.fromLTRB(22, 20, 22, 20),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center, // ⬅️ Tengah Vertikal
+                  mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -94,7 +94,9 @@ class SigninPage extends StatelessWidget {
                     Padding(padding: EdgeInsets.only(bottom: 23)),
 
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushReplacementNamed(context, '/otpcode');
+                      },
                       style: ButtonStyle(
                         padding: WidgetStatePropertyAll(
                           EdgeInsets.symmetric(horizontal: 50, vertical: 14),
