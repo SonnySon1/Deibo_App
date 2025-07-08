@@ -39,7 +39,7 @@ class WelcomePage extends StatelessWidget {
                   padding: WidgetStatePropertyAll(
                     EdgeInsets.symmetric(horizontal: 50, vertical: 14)
                   ),
-                  overlayColor: WidgetStatePropertyAll(Colors.white.withAlpha((255 * 2).toInt())),
+                  overlayColor: WidgetStatePropertyAll(Colors.white.withAlpha((255 * 0.2).toInt())),
                   backgroundColor: WidgetStatePropertyAll(AppConfig.primaryColor)
                 ),
                 child: Text("Get Started", style: TextStyle(color: AppConfig.textColor, fontWeight: FontWeight.bold),)
